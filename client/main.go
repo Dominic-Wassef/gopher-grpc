@@ -52,10 +52,10 @@ func main() {
 		}
 
 		log.Printf(`
-			ID : %s
-			Name : %s
-			Description : %s
-			Done : %v,
-		`, res.GetId(), res.GetName(), res.GetDescription(), res.GetDone())
+		ID : %s
+		Name : %s
+		Description : %s
+		Done : %v,
+	`, res.GetId(), res.GetName(), res.GetDescription(), res.GetDone())
 	}
 }
